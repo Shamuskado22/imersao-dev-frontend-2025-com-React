@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(to right, #8D2B70, #2B87C2);
+  position: fixed;
+  bottom: 0;
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.footer .title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title-text .footer__title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer .footer__button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
