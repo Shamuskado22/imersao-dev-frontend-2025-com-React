@@ -1,25 +1,26 @@
 import React from "react";
 import './SideBar.css';
+import logo from '../assets/icons/logo-spotify.png'
 
 const SideBar = () => {
   return (
   <div className="sidebar">
     <nav className="sidebar__navigation">
       <div className="logo">
-        <a href="#">
-          <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify" />
+        <a href="./">
+          <img src={logo} alt="logo do spotify" />
         </a>
       </div>
 
       <ul>
         <li>
-          <a href="#">
+          <a href="./">
             <span className="fa fa-house"></span>
             <span>Início</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="./">
             <span className="fa fa-search"></span>
             <span>Buscar</span>
           </a>
@@ -54,7 +55,7 @@ const SideBar = () => {
       </section>
 
       <div className="cookies">
-        <a href="#">Cookies</a>
+        <a href="./">Cookies</a>
       </div>
 
       <div className="languages">

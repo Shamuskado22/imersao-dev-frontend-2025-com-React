@@ -1,15 +1,24 @@
 import './App.css';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
 import SideBar from './SideBar/SideBar';
+import Header from './Header/Header';
+import PlaylistContainer from './PlaylistContainer/PlaylistContainer';
+import Footer from './Footer/Footer';
+import './MediaQueries.css'
+import './Reset.css'
+import './Vars.css'
+import './Script.js'
+import 'https://kit.fontawesome.com/b0066a3d5d.js'
 
 function App() {
   return (
-    <div className="Body">
+    <body className="Body">
       <SideBar/>
-      <Header/>
+      <main className="main-container">
+        <Header/>
+        <PlaylistContainer/>
+      </main>
       <Footer/>
-    </div>
+    </body>
   );
 }
 
